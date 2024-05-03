@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TransUnion_API_Called__c</fullName>
+    <description>Which API was called</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Which API was called</inlineHelpText>
+    <label>TransUnion API Called</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credit Request</fullName>
+                <default>false</default>
+                <label>Credit Request</label>
+            </value>
+            <value>
+                <fullName>People Search (TLO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>People Search (TLO)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TU_Address_2__c</fullName>
+    <description>2nd recent address from TransUnion.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>2nd recent address from TransUnion.</inlineHelpText>
+    <label>TU Address 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>TextArea</type>
+</CustomField>

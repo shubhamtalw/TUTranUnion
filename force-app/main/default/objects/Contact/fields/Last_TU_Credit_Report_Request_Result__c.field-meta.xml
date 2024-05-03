@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_TU_Credit_Report_Request_Result__c</fullName>
+    <description>The result of the most recent Credit Report Request.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The result of the most recent Credit Report Request.</inlineHelpText>
+    <label>Last TU Credit Report Request Result</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hit</fullName>
+                <default>false</default>
+                <label>Hit</label>
+            </value>
+            <value>
+                <fullName>No Hit</fullName>
+                <default>false</default>
+                <label>No Hit</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
